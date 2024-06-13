@@ -1,8 +1,4 @@
-class Shape:
-    def volume(self):
-        pass
-
-class Cube(Shape):
+class Cube:
     def __init__(self, l, b, h):
         self.l = l
         self.b = b
@@ -11,7 +7,7 @@ class Cube(Shape):
     def volume(self):
         return self.l * self.b * self.h
 
-class Cylinder(Shape):
+class Cylinder:
     def __init__(self, r, he):
         self.r = r
         self.he = he
@@ -19,7 +15,7 @@ class Cylinder(Shape):
     def volume(self):
         return 3.14 * self.r * self.r * self.he
 
-class Cuboid(Shape):
+class Cuboid:
     def __init__(self, a):
         self.a = a
 
